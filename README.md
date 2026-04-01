@@ -1,6 +1,6 @@
-# 📘 Comandi Git e Ambiente di Lavoro
+#  Comandi Git e Ambiente di Lavoro
 
-## 🔗 Connettere repository
+##  Connettere repository
 
 ```bash
 cd projects
@@ -8,7 +8,7 @@ git clone git@github.com:PACS-25-26/challenge1-FrancescoBarrale.git
 git clone git@github.com:PACS-25-26/second-challenge-una-notte-da-clions.git
 ```
 
-## 📂 Navigazione cartelle
+##  Navigazione cartelle
 
 ### Accedere alla home (WSL)
 
@@ -22,19 +22,19 @@ git clone git@github.com:PACS-25-26/second-challenge-una-notte-da-clions.git
 cd ~/projects/challenge1-FrancescoBarrale
 ```
 
-## 🔄 Aggiornare repository locale
+##  Aggiornare repository locale
 
 ```bash
 git pull
 ```
 
-## 💻 Aprire progetto in VS Code
+##  Aprire progetto in VS Code
 
 ```bash
 code .
 ```
 
-## ➕ Aggiungere file e fare push
+##  Aggiungere file e fare push
 
 ```bash
 git add .
@@ -42,19 +42,19 @@ git commit -m "aggiunto file main.cpp"
 git push
 ```
 
-## 📄 Creare un file
+##  Creare un file
 
 ```bash
 touch main.cpp
 ```
 
-## 📖 Aprire un PDF
+##  Aprire un PDF
 
 ```bash
 xdg-open Challenge25-26-1.pdf
 ```
 
-## ⚙️ Compilare ed eseguire
+##  Compilare ed eseguire
 
 ```bash
 make
@@ -62,7 +62,7 @@ make
 make clean
 ```
 
-## ⚠️ Gestione Merge Conflict
+##  Gestione Merge Conflict
 
 ```bash
 git pull --no-rebase
@@ -87,7 +87,7 @@ git commit -m "Risolto conflitto"
 git push
 ```
 
-## 🌿 Gestione Branch
+##  Gestione Branch
 
 ### -1 Essere nel main
 
@@ -111,7 +111,7 @@ git switch nome-branch
 
 ---
 
-### -4 📋 Vedere tutti i branch
+### -4  Vedere tutti i branch
 
 ```bash
 git branch
@@ -119,7 +119,7 @@ git branch
 
 ---
 
-### -5 ⬆️ Pubblicare un branch su GitHub
+### -5 Pubblicare un branch su GitHub
 
 ```bash
 git push -u origin nome-branch
@@ -141,25 +141,25 @@ git push
 
 
 
-## 🔀 Merge nel branch principale (main/master) --> MERGE
+##  Merge nel branch principale (main/master) --> MERGE
 
-### 1️⃣ Spostarsi sul branch principale
+### -1️ Spostarsi sul branch principale
 
 ```bash
 git switch main
 ```
 
-### 2️⃣ Aggiornare il branch principale
+### -2️ Aggiornare il branch principale
 ```bash
 git pull origin main
 ```
 
-### 3️⃣ Fare il merge del branch
+### -3️ Fare il merge del branch
 ```
 git merge nome-branch
 ```
 
-### 4️⃣ Risolvere eventuali conflitti
+### -4️ Risolvere eventuali conflitti
 
 Se compaiono conflitti, aprire i file e cercare:
 ```bash
@@ -173,14 +173,14 @@ Poi:
 git add .
 git commit -m "Risolto conflitto merge"
 ```
-### 5️⃣ Aggiornare GitHub
+### -5️ Aggiornare GitHub
 ```bash
 git push origin main
 ```
 
 
 
-## 🔀 Merge nel branch principale (main/master) --> REBASE 
+##  Merge nel branch principale (main/master) --> REBASE 
 Con questo altro metodo non rimangono nella timeline del main le modifiche.
 
 ### -1 Nel branch creato:
@@ -215,7 +215,7 @@ git switch main
 git merge nome-branch
 ```
 
-### 5️⃣ Aggiornare GitHub
+### -5️ Aggiornare GitHub
 ```bash
 git push origin main
 ```
