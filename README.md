@@ -218,3 +218,12 @@ git merge nome-branch
 ### 5️⃣ Aggiornare GitHub
 ```bash
 git push origin main
+```
+## ELIMINARE BRANCH
+```bash
+git branch -d nome-branch
+```
+se dà errori e vuoi ignorarli:
+```bash
+git branch -D nome-branch
+```
