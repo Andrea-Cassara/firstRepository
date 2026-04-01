@@ -3,8 +3,8 @@
 
 int main(){
 	std::cout << "CIAO FRANCESCO"<<std::endl;
-	std::cout << "Ciao dal nuovo branch" << std::end;
-	std::cout << "branch ancora" << std::end; 
+	std::cout << "Ciao dal nuovo branch" << std::endl;
+	std::cout << "branch ancora" << std::endl; 
 	std::cout << "Ciao dal nuovo branch" << std::endl;
 	double a = 1.;
 	double b = 2.;

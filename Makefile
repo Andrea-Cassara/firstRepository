@@ -1,7 +1,7 @@
 # The objective of this file is to make compilation of main.cpp faster and more customizable
 
 # Relevant variables
-OUTPUTDIR = executables
+OUTPUTDIR = .
 
 # Use g++ and give instructions
 CXX = g++
