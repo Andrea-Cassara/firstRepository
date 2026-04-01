@@ -89,33 +89,21 @@ git push
 
 ## 🌿 Gestione Branch
 
+### Essere nel main
+
+```bash
+git pull
+```
+
 ### Creare un nuovo branch
 
 ```bash
 git branch nome-branch
 ```
 
-### Creare e spostarsi subito nel branch
-
-```bash
-git checkout -b nome-branch
-```
-
-### (Metodo moderno equivalente)
-
-```bash
-git switch -c nome-branch
-```
-
 ---
 
-### 🔄 Passare da un branch all'altro
-
-```bash
-git checkout nome-branch
-```
-
-oppure:
+### Spostarsi nel branch
 
 ```bash
 git switch nome-branch
@@ -141,39 +129,32 @@ git push -u origin nome-branch
 
 ### 🔙 Tornare al branch principale
 
-```bash
-git checkout main
-```
+Ora fare modifiche necessarie ai file.
 
-oppure:
+### Caricare online le modifiche
 
 ```bash
-git switch main
+git add .
+git commit -m "Descrizione"
+git push
 ```
-
 
 ## 🔀 Merge nel branch principale (main/master)
 
 ### 1️⃣ Spostarsi sul branch principale
-```bash
-git checkout main
-```
-oppure:
+
 ```bash
 git switch main
 ```
+
 2️⃣ Aggiornare il branch principale
 ```bash
 git pull origin main
 ```
+
 3️⃣ Fare il merge del branch
 ```
 git merge nome-branch
-```
-
-Esempio:
-```bash
-git merge feature-login
 ```
 
 4️⃣ Risolvere eventuali conflitti
