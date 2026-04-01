@@ -139,7 +139,9 @@ git commit -m "Descrizione"
 git push
 ```
 
-## 🔀 Merge nel branch principale (main/master)
+
+
+## 🔀 Merge nel branch principale (main/master) --> MERGE
 
 ### 1️⃣ Spostarsi sul branch principale
 
@@ -175,3 +177,43 @@ git commit -m "Risolto conflitto merge"
 ```bash
 git push origin main
 ```
+
+
+
+## 🔀 Merge nel branch principale (main/master) --> MERGE
+
+### -1 Nel branch creato:
+```bash
+git rebase main
+```
+
+### -2 Risolvere eventuali conflitti
+
+Se compaiono conflitti, aprire i file e cercare:
+```bash
+<<<<<<< HEAD
+=======
+>>>>>>> nome-branch
+```
+
+Poi:
+```bash
+git add .
+git rebase --continue 
+```
+
+### -3 Spostarsi sul branch principale
+
+```bash
+git switch main
+```
+
+
+### -4 Fare il merge del branch
+```
+git merge nome-branch
+```
+
+### 5️⃣ Aggiornare GitHub
+```bash
+git push origin main
