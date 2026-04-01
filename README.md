@@ -127,7 +127,7 @@ git push -u origin nome-branch
 
 ---
 
-### -6 🔙 Tornare al branch principale
+### -6 Fare le aggiunte
 
 Ora fare modifiche necessarie ai file.
 
