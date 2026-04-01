@@ -87,6 +87,71 @@ git commit -m "Risolto conflitto"
 git push
 ```
 
+## 🌿 Gestione Branch
+
+### Creare un nuovo branch
+
+```bash
+git branch nome-branch
+```
+
+### Creare e spostarsi subito nel branch
+
+```bash
+git checkout -b nome-branch
+```
+
+### (Metodo moderno equivalente)
+
+```bash
+git switch -c nome-branch
+```
+
+---
+
+### 🔄 Passare da un branch all'altro
+
+```bash
+git checkout nome-branch
+```
+
+oppure:
+
+```bash
+git switch nome-branch
+```
+
+---
+
+### 📋 Vedere tutti i branch
+
+```bash
+git branch
+```
+
+---
+
+### ⬆️ Pubblicare un branch su GitHub
+
+```bash
+git push -u origin nome-branch
+```
+
+---
+
+### 🔙 Tornare al branch principale
+
+```bash
+git checkout main
+```
+
+oppure:
+
+```bash
+git switch main
+```
+
+
 ## 🔀 Merge nel branch principale (main/master)
 
 ### 1️⃣ Spostarsi sul branch principale
@@ -120,9 +185,13 @@ Poi:
 ```bash
 git add .
 git commit -m "Risolto conflitto merge"
+```
 5️⃣ Aggiornare GitHub
+```bash
 git push origin main
+```
 🚀 Riassunto veloce
+```bash
 git switch main
 git merge nome-branch
 git push origin main
