@@ -7,6 +7,7 @@ int main(){
 	std::cout << "branch ancora" << std::end; 
 	std::cout << "Ciao dal nuovo branch" << std::endl;
 	double a = 1.;
+	double b = 2.;
 	return 0;
 }
 
