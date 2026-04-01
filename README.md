@@ -180,7 +180,8 @@ git push origin main
 
 
 
-## 🔀 Merge nel branch principale (main/master) --> MERGE
+## 🔀 Merge nel branch principale (main/master) --> REBASE 
+Con questo altro metodo non rimangono nella timeline del main le modifiche.
 
 ### -1 Nel branch creato:
 ```bash
