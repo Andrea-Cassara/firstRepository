@@ -89,13 +89,13 @@ git push
 
 ## 🌿 Gestione Branch
 
-### Essere nel main
+### -1 Essere nel main
 
 ```bash
 git pull
 ```
 
-### Creare un nuovo branch
+### -2 Creare un nuovo branch
 
 ```bash
 git branch nome-branch
@@ -103,7 +103,7 @@ git branch nome-branch
 
 ---
 
-### Spostarsi nel branch
+### -3 Spostarsi nel branch
 
 ```bash
 git switch nome-branch
@@ -111,7 +111,7 @@ git switch nome-branch
 
 ---
 
-### 📋 Vedere tutti i branch
+### -4 📋 Vedere tutti i branch
 
 ```bash
 git branch
@@ -119,7 +119,7 @@ git branch
 
 ---
 
-### ⬆️ Pubblicare un branch su GitHub
+### -5 ⬆️ Pubblicare un branch su GitHub
 
 ```bash
 git push -u origin nome-branch
@@ -127,11 +127,11 @@ git push -u origin nome-branch
 
 ---
 
-### 🔙 Tornare al branch principale
+### -6 🔙 Tornare al branch principale
 
 Ora fare modifiche necessarie ai file.
 
-### Caricare online le modifiche
+### -7 Caricare online le modifiche
 
 ```bash
 git add .
@@ -147,17 +147,17 @@ git push
 git switch main
 ```
 
-2️⃣ Aggiornare il branch principale
+### 2️⃣ Aggiornare il branch principale
 ```bash
 git pull origin main
 ```
 
-3️⃣ Fare il merge del branch
+### 3️⃣ Fare il merge del branch
 ```
 git merge nome-branch
 ```
 
-4️⃣ Risolvere eventuali conflitti
+### 4️⃣ Risolvere eventuali conflitti
 
 Se compaiono conflitti, aprire i file e cercare:
 ```bash
@@ -171,7 +171,7 @@ Poi:
 git add .
 git commit -m "Risolto conflitto merge"
 ```
-5️⃣ Aggiornare GitHub
+### 5️⃣ Aggiornare GitHub
 ```bash
 git push origin main
 ```
