@@ -161,9 +161,13 @@ git checkout main
 oppure:
 ```bash
 git switch main
+```
 2️⃣ Aggiornare il branch principale
+```bash
 git pull origin main
+```
 3️⃣ Fare il merge del branch
+```
 git merge nome-branch
 ```
 
