@@ -175,9 +175,3 @@ git commit -m "Risolto conflitto merge"
 ```bash
 git push origin main
 ```
-🚀 Riassunto veloce
-```bash
-git switch main
-git merge nome-branch
-git push origin main
-```
